@@ -1,5 +1,5 @@
 function templateFunction(x) {
-    return x    
+    return x;
 }
 
 module.exports = templateFunction

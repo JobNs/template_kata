@@ -1,7 +1,10 @@
 const templateFunction = require('../src/template');
 
-describe('Name of the group', () => {
-    it('should ', () => {
-        expect(templateFunction(1)).toBe(1);
+
+describe('This test suites tests...', () => {
+    describe('First describe:', () => {
+        it('- First test', () => {
+            expect(templateFunction(1)).toEqual(1);
+        });
     });
 });
